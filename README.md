@@ -5,9 +5,16 @@ The purpose of this project is to develop a network of sensors and actuators man
 See below the project schematic. 
 <img src="../master/image/schema.png" alt="General Project Schematic"/>
 
+# List of repositories
+
+* [Android Client application:](https://github.com/KilianLeport/androidClientApplication) <img src="../master/image/android_client_application_Arrow.png" alt="Arrowndroid Client MVP pattern"/>
+* [Desktop client application:](https://github.com/KilianLeport/desktopClientApplication)
+* [Server Emulator application:](https://github.com/KilianLeport/serverEmulatorApplication)  
+
 # Summary
 
 * [General project](../master/README.md#General-project)
+* [List of repositories](../master/README.md#List-of-repositories)
 * [Summary](../master/README.md#Summary)
 * [List of projects](../master/README.md#List-of-projects)
   * [Android Client application](../master/README.md#Android-client-application)

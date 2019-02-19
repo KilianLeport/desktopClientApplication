@@ -7,7 +7,7 @@ See below the project schematic.
 
 # List of repositories
 
-* [Android Client application:](https://github.com/KilianLeport/androidClientApplication) <img src="../master/image/android_client_application_Arrow.png" alt="Arrowndroid Client MVP pattern"/>
+* [Android Client application:](https://github.com/KilianLeport/androidClientApplication) <img src="../master/image/android_client_application_Arrow.png"/>
 * [Desktop client application:](https://github.com/KilianLeport/desktopClientApplication)
 * [Server Emulator application:](https://github.com/KilianLeport/serverEmulatorApplication)  
 

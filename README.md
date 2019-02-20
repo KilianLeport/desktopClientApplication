@@ -35,10 +35,10 @@ See below the general implementation of the application.
 <img src="../master/image/android_client_application.png" alt="Android Client Application Schematic"/>
 
 #### MVP implementation example:
-1. The View 'MainActivity' holds an instance of 'MainPresenterInt' to communicate with its Presenter. The user clicks on the connection button in the View, the View then notifies the Presenter.
-2. The Presenter 'MainPresenter' holds an instance of 'ModelManagerInt' to communicate with the Model. The 'MainPresenter' class asks the Model to connect to the server.
-3. The 'ModelManager' holds a list of instances of 'PresentersInt'. It notifies all of them that a connection is established.
-4. The 'MainPresenter' olds an instance of the 'MainActivityInt'. It notifies the 'MainActivity' to change the state of the connection button.
+1. The View 'MainActivity' instantiates the 'MainPresenterInt' interface to communicate with its Presenter. The user clicks on the connection button in the View, the View then notifies the Presenter.
+2. The Presenter 'MainPresenter' instantiates the 'ModelManagerInt' interface to communicate with the Model. The 'MainPresenter' class asks the Model to connect to the server.
+3. The 'ModelManager' instantiates a list of instances from 'PresentersInt'. It notifies all of them that a connection has been established.
+4. The 'MainPresenter' instantiates the 'MainActivityInt' interface. It notifies the 'MainActivity' to change the state of the connection button.
 <img src="../master/image/android_client_application_MVP.png" alt="Android Client MVP pattern"/>
 
 

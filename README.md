@@ -8,7 +8,7 @@ See below the project schematic.
 # List of repositories
 
 * [Android Client application:](https://github.com/KilianLeport/androidClientApplication)
-* [Desktop client application:](https://github.com/KilianLeport/desktopClientApplication)
+* [Desktop Client application:](https://github.com/KilianLeport/desktopClientApplication)
 * [Server Emulator application:](https://github.com/KilianLeport/serverEmulatorApplication)  
 
 # Summary
@@ -43,7 +43,7 @@ See below the general implementation of the application.
 
 
 
-### [Desktop client application:](https://github.com/KilianLeport/desktopClientApplication)
+### [Desktop Client application:](https://github.com/KilianLeport/desktopClientApplication)
 The desktop application was developed in C++ with Qt. The application uses a Qt Model View Controller design pattern that is mainly a Model View design pattern [(see Qt website)](https://doc.qt.io/qt-5/model-view-programming.html).
 The application is mainly composed of three Views:
 * DeviceListWidget that implements a QTableView which lists the devices and allows the users to control them,
